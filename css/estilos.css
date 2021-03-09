@@ -1,0 +1,123 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+
+/* Colores-bases */
+:root{
+    --color-blue: #a9eee6;
+    --color-beige: #fefaec;
+    --color-rosa: #f38181;
+    --color-black: #625772;
+    --color-verde: #3c8980;
+  }
+
+
+/* Tipografias */
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.h1{
+  font-weight: 300;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h5{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+p{
+  font-weight: 300;
+}
+
+/* fondos */
+.fondo{
+  background: url(../img/gettyimages-1144800436-2048x2048.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.fondo-2{
+  background-color: rgba(0, 0, 0, .5);
+  height:100vh ;
+}
+
+.bg-beige{
+  background-color: var(--color-beige);
+}
+
+.bg-rosa{
+  background-color: var(--color-rosa);
+}
+
+.bg-morado{
+  background-color: var(--color-black);
+}
+.bg-blue{
+  background-color: var(--color-blue);
+}
+
+#slider .btn:hover{
+  background: rgb(179, 6, 58);
+}
+
+.btn:hover, bg-blue:focus{
+  background-color: var(--color-verde);
+}
+  /* botonoes */
+  .btn{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  /* margen y padding */
+  .pb-25{
+    padding-bottom: 2.5rem;
+  }
+
+  .pt-23{
+    padding-top: 2.3rem;
+  }
+
+
+
+  .icons{
+    font-size: 2.25rem;
+  }
+
+    /* precios */
+      .card-block .display-1{
+        font-size: 6.25rem;
+      }
+
+      .card{
+        border: none;
+      }
+
+      /* formulario */
+      .form-control{
+        border: 1px solid rgba(0, 0, 0, 1);
+      }
